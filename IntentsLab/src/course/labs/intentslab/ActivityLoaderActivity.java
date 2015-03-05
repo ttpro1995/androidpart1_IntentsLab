@@ -87,7 +87,7 @@ public class ActivityLoaderActivity extends Activity {
         Intent baseIntent = null;
         Uri targetURL = Uri.parse("https://www.google.com/");
 		baseIntent = new Intent(Intent.ACTION_VIEW,targetURL); // browser to targer url
-        baseIntent.addCategory(Intent.CATEGORY_BROWSABLE);
+
 		// TODO - Create a chooser intent, for choosing which Activity
 		// will carry out the baseIntent
 		// (HINT: Use the Intent class' createChooser() method)
